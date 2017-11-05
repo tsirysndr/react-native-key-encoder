@@ -1,0 +1,89 @@
+{
+  "_args": [
+    [
+      {
+        "raw": "react-native-key-encoder@^1.1.6",
+        "scope": null,
+        "escapedName": "react-native-key-encoder",
+        "name": "key-encoder",
+        "rawSpec": "^1.1.6",
+        "spec": ">=1.1.6 <2.0.0",
+        "type": "range"
+      }
+    ]
+  ],
+  "author": {
+    "name": "Tsiry Sandratraina",
+    "email": "tsiryid@gmail.com"
+  },
+  "bugs": {
+    "url": "https://github.com/realtsiry/react-native-key-encoder/issues"
+  },
+  "dependencies": {
+    "bn.js": "^3.1.2",
+    "elliptic": "^5.1.0",
+    "react-native-asn1.js": "^4.9.2"
+  },
+  "description": "React Native library for encoding ECDSA private keys to PEM, DER and raw hex formats",
+  "devDependencies": {
+    "tape": "^4.2.0"
+  },
+  "directories": {},
+  "files": [
+    "lib/",
+    "*.js",
+    "README.md"
+  ],
+  "homepage": "https://github.com/realtsiry/react-native-key-encoder",
+  "keywords": [
+    "elliptic",
+    "elliptic curve",
+    "asn",
+    "pem",
+    "der",
+    "ecdsa",
+    "crypto",
+    "cryptography",
+    "private",
+    "key",
+    "encode",
+    "decode",
+    "secp256k1",
+    "bitcoin",
+    "curve",
+    "private key",
+    "private keys",
+    "public key",
+    "public keys",
+    "keys",
+    "ecdsa key",
+    "ecdsa keys",
+    "key converter",
+    "convert keys",
+    "key format",
+    "key formatter",
+    "format keys",
+    "key encoder",
+    "encode keys",
+    "react native"
+  ],
+  "license": "MIT",
+  "main": "index.js",
+  "maintainers": [
+    {
+      "name": "tsiry",
+      "email": "tsiryid@gmail.com"
+    }
+  ],
+  "name": "react-native-key-encoder",
+  "optionalDependencies": {},
+  "readmeFilename": "README.md",
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/realtsiry/react-native-key-encoder.git"
+  },
+  "scripts": {
+    "test": "node test.js"
+  },
+  "version": "1.1.6"
+}
